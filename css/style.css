@@ -1,0 +1,38 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #F8F8FF;
+   
+}
+
+header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navlist li {
+    display: inline-block;
+    vertical-align: middle;
+    margin:21px 0px 42px 37px;
+}
+
+.navlist {
+    margin-left: 108px;
+}
+
+li a {
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navlist img {
+    margin:11px 0px 0px 30px;
+    display: inline-block;
+    vertical-align: top;
+    width:32px;
+    height: 32px;
+    line-height: 12.89px;
+}
+
