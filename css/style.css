@@ -32,7 +32,7 @@ li a {
 .navlist img {
     margin-left: 30px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width:32px;
     height: 32px;
 }
@@ -41,12 +41,16 @@ li a {
     padding-top: 100px;
 }
 
-.photocard h1 {
+
+/* section 1 */
+.s-1 h1 {
     font-size: 24px;
     font-weight: 700;
     margin: 42px 0 27px 138px;
     font-family: 'Roboto', sans-serif;
 }
+
+/* photos */
 .photocard p  {
     display: inline-block;
     border: 2px solid black;
@@ -57,31 +61,74 @@ li a {
     font-weight: 700px;
 }
 
-.photocard .firstp {
-  margin-left: 138px;
-  font-family: 'Roboto', sans-serif;
-  color:#FFFFFF;
-  font-weight: 700px;
+.photo {
+    display: inline-block;
+    position: relative;
 }
-
 
 .firstimg {
     margin-left: 138px;
 }
 
-.photocard img {
-   margin-right: 20px;
-  }
+.photo img {
+    margin-right:20px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    left:41px;
+    bottom:134px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+}
+
+.text1 {
+    color: white;
+    position: absolute;
+    left: 180px;
+    bottom:134px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+}
+
+
+
+.photocard {
+    display: inline-block;
+}
+
+/* texts */
 
 .textcard {
     width: 362px;
     height: 171px;
     background-color: white;
     display: inline-block;
-    margin-right: 20px;
+    margin-left:20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.textcard p {
+    margin-top: 67px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700px;
+    font-size: 10px;
     color:#8A8787;
+    line-height: 2;
+    margin-left: 52px;
+    width: 260px;
+}
+
+.textcard1 p {
+    margin-top: 67px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 10px;
+    color:#8A8787;
+    line-height: 2;
+    margin-left: 52px;
+    width: 260px;
 }
 
 
@@ -90,14 +137,11 @@ li a {
     height: 171px;
     background-color: white;
     display: inline-block;
-    margin-left: 138px;
-    margin-right: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700px;
-    color:#8A8787;
+    border-radius: 0 0 10px 10px;
+    margin: 0 0 0 138px;
 }
 
-
+/* section 2 */
 .s-2 {
     margin-top: 57px;
 }
