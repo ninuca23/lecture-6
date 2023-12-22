@@ -1,5 +1,5 @@
 .container {
-    width: 1440px;
+    width: 1400px;
     margin: 0 auto;
     background-color: #F8F8FF;
    
@@ -9,7 +9,7 @@ header {
     position: fixed;
     top: 0px;
     background-color: #F8F8FF;
-    width: 1440px;
+    width: 1400px;
     z-index: 20;
 }
 
@@ -196,6 +196,8 @@ li a {
     top: 600px;
 }
 
+
+/* footer */
 footer {
     margin-top: 100px;
     background-color: #243043 ;
